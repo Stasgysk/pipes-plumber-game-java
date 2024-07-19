@@ -1,0 +1,48 @@
+.game-over-popup {
+    position: fixed;
+    top: 3.5rem;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}
+
+.popup-inner {
+    border-radius: 25px;
+    border: 4px solid #777777;
+    margin: 20rem auto auto;
+    width: fit-content;
+    background-color: white;
+}
+
+.rating-comment-form{
+    align-content: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 1rem;
+}
+
+.form {
+    margin-bottom: 1.5rem;
+    height: 70px;
+}
+
+.form-level {
+    margin-bottom: 0.2rem;
+    height: 70px;
+}
+
+.game-over-text {
+    margin-top: 1rem;
+}
+
+.checkbox {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.rating-comment-button {
+    margin-top: 2rem;
+}

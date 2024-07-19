@@ -1,0 +1,72 @@
+.game-container {
+    align-items: center;
+    margin: auto;
+    text-align:center;
+    justify-content:center;
+}
+
+.pipes-toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.tileStyle {
+    padding: 0;
+    margin: 0;
+    border: 1px solid darkslategray;
+    border-radius: 3px;
+    width: 24px;
+    height: 24px;
+    font-weight: bold;
+}
+
+.game-body {
+    margin: auto;
+    text-align:center;
+    justify-content:center;
+}
+
+.game-field {
+    margin-top: 1rem;
+    display: table;
+    overflow:auto
+}
+
+th,td {
+    word-wrap: break-word;
+}
+
+.pipes-field{
+    margin: auto;
+    table-layout: fixed;
+    width: 52%;
+    /*border: solid #333333;*/
+}
+
+.pipes-field-small{
+    margin: auto;
+    table-layout: fixed;
+    width: 28%;
+    /*border: solid #333333;*/
+}
+
+.game-over-popup-button {
+    position: fixed;
+    top: 3.5rem;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
+}
+
+.game-over-button {
+    margin-top: 20rem;
+    width: 300px;
+    height: 100px;
+    font-size: 2rem;
+}
