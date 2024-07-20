@@ -9,7 +9,7 @@ import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyDFRikKuU9q4SON_NYQbXNSOp5K9Y5T_zU",
+    apiKey: "",
     authDomain: "plumbergame-bbb4c.firebaseapp.com",
     projectId: "plumbergame",
     storageBucket: "plumbergame.appspot.com",
